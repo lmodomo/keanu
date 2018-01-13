@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30D2CFA72AC785D595E19466 /* Pods_GuesSING.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C3AFDB75B3BD8B10BE3FD6 /* Pods_GuesSING.framework */; };
+		F15B67671FDF71CB0049D614 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67661FDF71CB0049D614 /* CollectionViewDataSource.swift */; };
+		F15B67691FDF72890049D614 /* CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67681FDF72890049D614 /* CollectionViewDelegate.swift */; };
+		F15B676C1FDF9B6D0049D614 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B676B1FDF9B6D0049D614 /* Deck.swift */; };
+		F15B67711FE095F30049D614 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67701FE095F30049D614 /* SettingsTableViewController.swift */; };
+		F15B67741FE1ED420049D614 /* CreditsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67731FE1ED420049D614 /* CreditsTableViewController.swift */; };
+		F15B67761FE1EECD0049D614 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67751FE1EECD0049D614 /* MyProfileViewController.swift */; };
+		F15B67791FE1EF100049D614 /* TutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67781FE1EF100049D614 /* TutorialsViewController.swift */; };
+		F15B677B1FE1EF220049D614 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B677A1FE1EF220049D614 /* TermsViewController.swift */; };
+		F15B677D1FE1EF7C0049D614 /* CreditPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B677C1FE1EF7C0049D614 /* CreditPersonVC.swift */; };
+		F15B67801FE32D8F0049D614 /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B677F1FE32D8F0049D614 /* GameBoardViewController.swift */; };
+		F15B67821FE332C60049D614 /* DeckCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67811FE332C60049D614 /* DeckCollectionViewCell.swift */; };
+		F15B67871FE527EB0049D614 /* CreateDeckCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67861FE527EB0049D614 /* CreateDeckCollectionViewCell.swift */; };
+		F15B67891FE533B90049D614 /* PurchaseDeckCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67881FE533B90049D614 /* PurchaseDeckCollectionViewCell.swift */; };
+		F15B678C1FE627240049D614 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B678B1FE627240049D614 /* FeedViewController.swift */; };
+		F15B678E1FE6273F0049D614 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B678D1FE6273F0049D614 /* CommentViewController.swift */; };
+		F15B67901FE62CD30049D614 /* ScoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B678F1FE62CD30049D614 /* ScoreBoardViewController.swift */; };
+		F15B67921FE62CF70049D614 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B67911FE62CF70049D614 /* VideoViewController.swift */; };
+		F174EFAB1FDB42CE00D92756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F174EFAA1FDB42CE00D92756 /* AppDelegate.swift */; };
+		F174EFB01FDB42CE00D92756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F174EFAE1FDB42CE00D92756 /* Main.storyboard */; };
+		F174EFB31FDB42CE00D92756 /* GuesSING.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F174EFB11FDB42CE00D92756 /* GuesSING.xcdatamodeld */; };
+		F174EFB51FDB42CE00D92756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F174EFB41FDB42CE00D92756 /* Assets.xcassets */; };
+		F174EFB81FDB42CE00D92756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F174EFB61FDB42CE00D92756 /* LaunchScreen.storyboard */; };
+		F174EFC01FDB5DC600D92756 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F174EFBF1FDB5DC600D92756 /* GameViewController.swift */; };
+		F174EFC41FDB61A600D92756 /* ChooseLogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F174EFC31FDB61A600D92756 /* ChooseLogInVC.swift */; };
+		F174EFC71FDB61C000D92756 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F174EFC61FDB61C000D92756 /* LogInViewController.swift */; };
+		F174EFC91FDB61D200D92756 /* CreateNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F174EFC81FDB61D200D92756 /* CreateNewViewController.swift */; };
+		F174EFCD1FDB7B0100D92756 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F174EFCC1FDB7B0100D92756 /* GoogleService-Info.plist */; };
+		F194D8FC1FE6737800885745 /* MyDecksCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194D8FB1FE6737800885745 /* MyDecksCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5941B49F5CAF8F8BA2CDBE /* Pods-GuesSING.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuesSING.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuesSING/Pods-GuesSING.release.xcconfig"; sourceTree = "<group>"; };
+		79C3AFDB75B3BD8B10BE3FD6 /* Pods_GuesSING.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuesSING.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A542FAA6A25CD7472125C569 /* Pods-GuesSING.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuesSING.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuesSING/Pods-GuesSING.debug.xcconfig"; sourceTree = "<group>"; };
+		F15B67661FDF71CB0049D614 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		F15B67681FDF72890049D614 /* CollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDelegate.swift; sourceTree = "<group>"; };
+		F15B676B1FDF9B6D0049D614 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		F15B67701FE095F30049D614 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		F15B67731FE1ED420049D614 /* CreditsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsTableViewController.swift; sourceTree = "<group>"; };
+		F15B67751FE1EECD0049D614 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		F15B67781FE1EF100049D614 /* TutorialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialsViewController.swift; sourceTree = "<group>"; };
+		F15B677A1FE1EF220049D614 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		F15B677C1FE1EF7C0049D614 /* CreditPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditPersonVC.swift; sourceTree = "<group>"; };
+		F15B677F1FE32D8F0049D614 /* GameBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
+		F15B67811FE332C60049D614 /* DeckCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckCollectionViewCell.swift; sourceTree = "<group>"; };
+		F15B67861FE527EB0049D614 /* CreateDeckCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDeckCollectionViewCell.swift; sourceTree = "<group>"; };
+		F15B67881FE533B90049D614 /* PurchaseDeckCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDeckCollectionViewCell.swift; sourceTree = "<group>"; };
+		F15B678B1FE627240049D614 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F15B678D1FE6273F0049D614 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		F15B678F1FE62CD30049D614 /* ScoreBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardViewController.swift; sourceTree = "<group>"; };
+		F15B67911FE62CF70049D614 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		F174EFA71FDB42CE00D92756 /* GuesSING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuesSING.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F174EFAA1FDB42CE00D92756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F174EFAF1FDB42CE00D92756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F174EFB21FDB42CE00D92756 /* GuesSING.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuesSING.xcdatamodel; sourceTree = "<group>"; };
+		F174EFB41FDB42CE00D92756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F174EFB71FDB42CE00D92756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F174EFB91FDB42CE00D92756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F174EFBF1FDB5DC600D92756 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F174EFC31FDB61A600D92756 /* ChooseLogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLogInVC.swift; sourceTree = "<group>"; };
+		F174EFC61FDB61C000D92756 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F174EFC81FDB61D200D92756 /* CreateNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewViewController.swift; sourceTree = "<group>"; };
+		F174EFCC1FDB7B0100D92756 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F194D8FB1FE6737800885745 /* MyDecksCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDecksCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F174EFA41FDB42CE00D92756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D2CFA72AC785D595E19466 /* Pods_GuesSING.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099019B557447BBA600F3321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A542FAA6A25CD7472125C569 /* Pods-GuesSING.debug.xcconfig */,
+				3A5941B49F5CAF8F8BA2CDBE /* Pods-GuesSING.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		312F728AA4A5B08D6A751EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79C3AFDB75B3BD8B10BE3FD6 /* Pods_GuesSING.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F15B676A1FDF9B580049D614 /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				F15B676B1FDF9B6D0049D614 /* Deck.swift */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		F15B676D1FE089F50049D614 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F15B67701FE095F30049D614 /* SettingsTableViewController.swift */,
+				F15B67751FE1EECD0049D614 /* MyProfileViewController.swift */,
+				F15B67781FE1EF100049D614 /* TutorialsViewController.swift */,
+				F15B677A1FE1EF220049D614 /* TermsViewController.swift */,
+				F15B67721FE1ED220049D614 /* Credits */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F15B67721FE1ED220049D614 /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				F15B67731FE1ED420049D614 /* CreditsTableViewController.swift */,
+				F15B677C1FE1EF7C0049D614 /* CreditPersonVC.swift */,
+			);
+			path = Credits;
+			sourceTree = "<group>";
+		};
+		F15B677E1FE327010049D614 /* GameBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F15B677F1FE32D8F0049D614 /* GameBoardViewController.swift */,
+				F15B678F1FE62CD30049D614 /* ScoreBoardViewController.swift */,
+				F15B67911FE62CF70049D614 /* VideoViewController.swift */,
+			);
+			path = GameBoard;
+			sourceTree = "<group>";
+		};
+		F15B678A1FE626F50049D614 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F15B678B1FE627240049D614 /* FeedViewController.swift */,
+				F15B678D1FE6273F0049D614 /* CommentViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		F174EF9E1FDB42CE00D92756 = {
+			isa = PBXGroup;
+			children = (
+				F174EFA91FDB42CE00D92756 /* GuesSING */,
+				F174EFA81FDB42CE00D92756 /* Products */,
+				099019B557447BBA600F3321 /* Pods */,
+				312F728AA4A5B08D6A751EE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F174EFA81FDB42CE00D92756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F174EFA71FDB42CE00D92756 /* GuesSING.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F174EFA91FDB42CE00D92756 /* GuesSING */ = {
+			isa = PBXGroup;
+			children = (
+				F174EFAA1FDB42CE00D92756 /* AppDelegate.swift */,
+				F15B676A1FDF9B580049D614 /* Deck */,
+				F174EFC21FDB618000D92756 /* Log In */,
+				F15B678A1FE626F50049D614 /* Feed */,
+				F174EFC11FDB5DCC00D92756 /* Game */,
+				F15B677E1FE327010049D614 /* GameBoard */,
+				F15B676D1FE089F50049D614 /* Settings */,
+				F174EFAE1FDB42CE00D92756 /* Main.storyboard */,
+				F174EFCC1FDB7B0100D92756 /* GoogleService-Info.plist */,
+				F174EFB41FDB42CE00D92756 /* Assets.xcassets */,
+				F174EFB61FDB42CE00D92756 /* LaunchScreen.storyboard */,
+				F174EFB91FDB42CE00D92756 /* Info.plist */,
+				F174EFB11FDB42CE00D92756 /* GuesSING.xcdatamodeld */,
+			);
+			path = GuesSING;
+			sourceTree = "<group>";
+		};
+		F174EFC11FDB5DCC00D92756 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F194D8FD1FE6739500885745 /* ForSaleDecks */,
+				F194D8FA1FE6712700885745 /* Create Decks */,
+				F174EFBF1FDB5DC600D92756 /* GameViewController.swift */,
+				F15B67681FDF72890049D614 /* CollectionViewDelegate.swift */,
+				F15B67661FDF71CB0049D614 /* CollectionViewDataSource.swift */,
+				F15B67811FE332C60049D614 /* DeckCollectionViewCell.swift */,
+				F15B67861FE527EB0049D614 /* CreateDeckCollectionViewCell.swift */,
+				F15B67881FE533B90049D614 /* PurchaseDeckCollectionViewCell.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		F174EFC21FDB618000D92756 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				F174EFC31FDB61A600D92756 /* ChooseLogInVC.swift */,
+				F174EFC61FDB61C000D92756 /* LogInViewController.swift */,
+				F174EFC81FDB61D200D92756 /* CreateNewViewController.swift */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		F194D8FA1FE6712700885745 /* Create Decks */ = {
+			isa = PBXGroup;
+			children = (
+				F194D8FB1FE6737800885745 /* MyDecksCollectionViewController.swift */,
+			);
+			path = "Create Decks";
+			sourceTree = "<group>";
+		};
+		F194D8FD1FE6739500885745 /* ForSaleDecks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForSaleDecks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F174EFA61FDB42CE00D92756 /* GuesSING */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F174EFBC1FDB42CE00D92756 /* Build configuration list for PBXNativeTarget "GuesSING" */;
+			buildPhases = (
+				23715639DF5201410C4B189C /* [CP] Check Pods Manifest.lock */,
+				F174EFA31FDB42CE00D92756 /* Sources */,
+				F174EFA41FDB42CE00D92756 /* Frameworks */,
+				F174EFA51FDB42CE00D92756 /* Resources */,
+				D18BC2A3CD28CF3EB1CFC796 /* [CP] Embed Pods Frameworks */,
+				79A89370FEF0B150091EC3EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuesSING;
+			productName = GuesSING;
+			productReference = F174EFA71FDB42CE00D92756 /* GuesSING.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F174EF9F1FDB42CE00D92756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Pashyn Santos LLC";
+				TargetAttributes = {
+					F174EFA61FDB42CE00D92756 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F174EFA21FDB42CE00D92756 /* Build configuration list for PBXProject "GuesSING" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F174EF9E1FDB42CE00D92756;
+			productRefGroup = F174EFA81FDB42CE00D92756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F174EFA61FDB42CE00D92756 /* GuesSING */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F174EFA51FDB42CE00D92756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F174EFB81FDB42CE00D92756 /* LaunchScreen.storyboard in Resources */,
+				F174EFCD1FDB7B0100D92756 /* GoogleService-Info.plist in Resources */,
+				F174EFB51FDB42CE00D92756 /* Assets.xcassets in Resources */,
+				F174EFB01FDB42CE00D92756 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23715639DF5201410C4B189C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79A89370FEF0B150091EC3EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuesSING/Pods-GuesSING-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18BC2A3CD28CF3EB1CFC796 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuesSING/Pods-GuesSING-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F174EFA31FDB42CE00D92756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15B677D1FE1EF7C0049D614 /* CreditPersonVC.swift in Sources */,
+				F15B67871FE527EB0049D614 /* CreateDeckCollectionViewCell.swift in Sources */,
+				F15B678C1FE627240049D614 /* FeedViewController.swift in Sources */,
+				F15B676C1FDF9B6D0049D614 /* Deck.swift in Sources */,
+				F174EFB31FDB42CE00D92756 /* GuesSING.xcdatamodeld in Sources */,
+				F15B67691FDF72890049D614 /* CollectionViewDelegate.swift in Sources */,
+				F174EFC41FDB61A600D92756 /* ChooseLogInVC.swift in Sources */,
+				F174EFC01FDB5DC600D92756 /* GameViewController.swift in Sources */,
+				F15B67791FE1EF100049D614 /* TutorialsViewController.swift in Sources */,
+				F15B677B1FE1EF220049D614 /* TermsViewController.swift in Sources */,
+				F174EFC71FDB61C000D92756 /* LogInViewController.swift in Sources */,
+				F194D8FC1FE6737800885745 /* MyDecksCollectionViewController.swift in Sources */,
+				F15B67801FE32D8F0049D614 /* GameBoardViewController.swift in Sources */,
+				F15B67821FE332C60049D614 /* DeckCollectionViewCell.swift in Sources */,
+				F15B67891FE533B90049D614 /* PurchaseDeckCollectionViewCell.swift in Sources */,
+				F15B678E1FE6273F0049D614 /* CommentViewController.swift in Sources */,
+				F15B67761FE1EECD0049D614 /* MyProfileViewController.swift in Sources */,
+				F15B67901FE62CD30049D614 /* ScoreBoardViewController.swift in Sources */,
+				F15B67711FE095F30049D614 /* SettingsTableViewController.swift in Sources */,
+				F15B67921FE62CF70049D614 /* VideoViewController.swift in Sources */,
+				F174EFAB1FDB42CE00D92756 /* AppDelegate.swift in Sources */,
+				F174EFC91FDB61D200D92756 /* CreateNewViewController.swift in Sources */,
+				F15B67741FE1ED420049D614 /* CreditsTableViewController.swift in Sources */,
+				F15B67671FDF71CB0049D614 /* CollectionViewDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F174EFAE1FDB42CE00D92756 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F174EFAF1FDB42CE00D92756 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F174EFB61FDB42CE00D92756 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F174EFB71FDB42CE00D92756 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F174EFBA1FDB42CE00D92756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F174EFBB1FDB42CE00D92756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F174EFBD1FDB42CE00D92756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A542FAA6A25CD7472125C569 /* Pods-GuesSING.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK9U3QJECC;
+				INFOPLIST_FILE = GuesSING/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PashynSantos.GuesSING;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F174EFBE1FDB42CE00D92756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5941B49F5CAF8F8BA2CDBE /* Pods-GuesSING.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK9U3QJECC;
+				INFOPLIST_FILE = GuesSING/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PashynSantos.GuesSING;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F174EFA21FDB42CE00D92756 /* Build configuration list for PBXProject "GuesSING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F174EFBA1FDB42CE00D92756 /* Debug */,
+				F174EFBB1FDB42CE00D92756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F174EFBC1FDB42CE00D92756 /* Build configuration list for PBXNativeTarget "GuesSING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F174EFBD1FDB42CE00D92756 /* Debug */,
+				F174EFBE1FDB42CE00D92756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F174EFB11FDB42CE00D92756 /* GuesSING.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F174EFB21FDB42CE00D92756 /* GuesSING.xcdatamodel */,
+			);
+			currentVersion = F174EFB21FDB42CE00D92756 /* GuesSING.xcdatamodel */;
+			path = GuesSING.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F174EF9F1FDB42CE00D92756 /* Project object */;
+}
